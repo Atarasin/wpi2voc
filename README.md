@@ -27,5 +27,7 @@ WPI数据集由两个文件夹组成，分别为test和trainval文件夹，其�
 准备工作做好之后就可以进行数据集格式的转换了。整个过程主要分为三步：
 
 1. 将WPI内的图片重新命名并将其放入VOC2007内的JPEGImages文件夹内；
+
 2. 将mat标注文件转换为VOC标注格式的XML文件，并放入VOC2007内的Annotations文件夹内；
+
 3. 将数据集重新分割为test和trainval并生成对应txt文件，放入VOC2007内的ImageSets\Main文件夹内.
